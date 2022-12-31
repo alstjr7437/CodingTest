@@ -1,4 +1,4 @@
-#2022-12-30
+# 2022-12-30 반복문1
 # 2739 구구단
 # a = int(input())
 #
@@ -33,7 +33,7 @@
 # else :
 #     print("No")
 
-# 15552 빠른 A+B 시간제한 1초
+# 15552 빠른 A+B ★★★★★시간제한 1초
 # import sys
 # count = int(sys.stdin.readline())
 # for i in range(count):
@@ -41,9 +41,7 @@
 #     print(a+b)
 
 # 11021 A+B-7
-count = int(input())
-for i in range(1, count+1):
-     a,b = map(int, input().split())
-     print(f"Case #{i}: {a+b}")
-
-# 다음날
+# count = int(input())
+# for i in range(1, count+1):
+#      a,b = map(int, input().split())
+#      print(f"Case #{i}: {a+b}")
