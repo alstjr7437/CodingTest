@@ -1,4 +1,4 @@
-# 2023-01-11 문자열
+# 2023-01-12 문자열
 
 # 11654 아스키코드
 # print(ord(input()))
@@ -39,3 +39,51 @@
 #     print(al[a])
 # else :
 #     print('?')
+
+# 1152 단어의 개수
+# split으로 띄어쓰기로 문자 구분 후 len으로 갯수 확인
+# result = input().split()
+# print(len(result))
+
+# 2908 상수
+# a,b = input().split()
+# a = int(a[::-1])
+# b = int(b[::-1])
+# if a > b :
+#     print(a)
+# else :
+#     print(b)
+
+# 5622 다이얼
+# a = input()
+# sum = 0
+# for i in range(len(a)):
+#     if ord(a[i]) >= 65 and ord(a[i]) <= 67:
+#         sum += 3
+#     elif ord(a[i]) >= 68 and ord(a[i]) <= 70:
+#         sum += 4
+#     elif ord(a[i]) >= 71 and ord(a[i]) <= 73:
+#         sum += 5
+#     elif ord(a[i]) >= 74 and ord(a[i]) <= 76:
+#         sum += 6
+#     elif ord(a[i]) >= 77 and ord(a[i]) <= 79:
+#         sum += 7
+#     elif ord(a[i]) >= 80 and ord(a[i]) <= 83:
+#         sum += 8
+#     elif ord(a[i]) >= 84 and ord(a[i]) <= 86:
+#         sum += 9
+#     elif ord(a[i]) >= 87 and ord(a[i]) <= 90:
+#         sum += 10
+#     else :
+#         sum += 11
+# print(sum)
+
+# 2941 크로아티아 알파벳
+# for 문으로 i에 word를 넣으며 교체되는 함수
+# word = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
+# a = input()
+# for i in word :
+#     a = a.replace(i, '*')  # input 변수와 동일한 이름의 변수
+# print(len(a))
+
+# 1316 그룹 단어 체커
