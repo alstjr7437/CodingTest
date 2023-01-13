@@ -87,3 +87,18 @@
 # print(len(a))
 
 # 1316 그룹 단어 체커
+# for문 안에 알고리즘 잘 깨닫기
+# a = int(input())
+# result = 0
+# for i in range(a):
+#     word = input()
+#     no = 0
+#     for j in range(len(word)-1):
+#         if word[j] != word[j+1]:        # 문자가 연속으로 안될때
+#             new = word[j+1:]            # 비교 글자 뒤로 문자를 생성
+#             if new.count(word[j]) > 0:  # 생성된 문자와 비교해서 있다면 no를 +1
+#                 no += 1
+#     if no == 0 :                        # 뒤에 같은 문자가 없을시 결과를 +1
+#         result+=1
+# print(result)
+
