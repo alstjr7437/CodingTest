@@ -16,3 +16,17 @@
 #     home += count * 6
 #     count += 1
 # print(count)
+
+# 1193 분수 찾기
+a = int(input())
+count = 1
+while a > count :
+    a -= count
+    count += 1
+if count % 2 == 0:
+    b = a
+    c = count - a + 1
+else :
+    b = count - a + 1
+    c = a
+print(f"{b}/{c}")
