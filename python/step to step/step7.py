@@ -32,6 +32,20 @@
 # print(f"{b}/{c}")
 
 # 2869 달팽이 올라가기
-a,b,v = map(int,input().split())
-k = (v-b)/(a-b)
-print(int(k) if k == int(k) else int(k)+1)
+# a,b,v = map(int,input().split())
+# k = (v-b)/(a-b)
+# if k == int(k) :
+#     k = int(k)
+# else :
+#     k = int(k) + 1
+# print(k)
+
+a = int(input())
+for i in range(a):
+    h, w, n = map(int, input().split())
+    room = n // h + 1
+    floor = n % h
+    if floor == 0 :
+        room = n // h
+        floor = h
+    print(f'{floor * 100 + room}')
