@@ -18,15 +18,20 @@
 # print(count)
 
 # 1193 분수 찾기
-a = int(input())
-count = 1
-while a > count :
-    a -= count
-    count += 1
-if count % 2 == 0:
-    b = a
-    c = count - a + 1
-else :
-    b = count - a + 1
-    c = a
-print(f"{b}/{c}")
+# a = int(input())
+# count = 1
+# while a > count :
+#     a -= count
+#     count += 1
+# if count % 2 == 0:
+#     b = a
+#     c = count - a + 1
+# else :
+#     b = count - a + 1
+#     c = a
+# print(f"{b}/{c}")
+
+# 2869 달팽이 올라가기
+a,b,v = map(int,input().split())
+k = (v-b)/(a-b)
+print(int(k) if k == int(k) else int(k)+1)
