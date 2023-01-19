@@ -40,12 +40,26 @@
 #     k = int(k) + 1
 # print(k)
 
-a = int(input())
-for i in range(a):
-    h, w, n = map(int, input().split())
-    room = n // h + 1
-    floor = n % h
-    if floor == 0 :
-        room = n // h
-        floor = h
-    print(f'{floor * 100 + room}')
+# 10250 호텔 방
+# a = int(input())
+# for i in range(a):
+#     h, w, n = map(int, input().split())
+#     room = n // h + 1
+#     floor = n % h
+#     if floor == 0 :
+#         room = n // h
+#         floor = h
+#     print(f'{floor * 100 + room}')
+
+# 2775 부녀회장
+# a = int(input())
+# for i in range(a):
+#     k = int(input())
+#     n = int(input())
+#     f0 = []
+#     for j in range(1,n+1):
+#         f0.append(j)
+#     for j in range(k):
+#         for b in range(1, n):
+#             f0[b] += f0[b-1]
+#     print(f0[-1])
