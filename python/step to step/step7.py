@@ -63,3 +63,17 @@
 #         for b in range(1, n):
 #             f0[b] += f0[b-1]
 #     print(f0[-1])
+
+# 2839 설탕 배달
+a = int(input())
+count = 0
+
+while a >= 0 :
+    if a % 5 == 0 :
+        count += (a // 5)
+        print(count)
+        break
+    a -= 3
+    count += 1
+else :
+    print(-1)
