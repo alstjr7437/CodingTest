@@ -65,15 +65,20 @@
 #     print(f0[-1])
 
 # 2839 설탕 배달
-a = int(input())
-count = 0
+# a = int(input())
+# count = 0
+#
+# while a >= 0 :
+#     if a % 5 == 0 :
+#         count += (a // 5)
+#         print(count)
+#         break
+#     a -= 3
+#     count += 1
+# else :
+#     print(-1)
 
-while a >= 0 :
-    if a % 5 == 0 :
-        count += (a // 5)
-        print(count)
-        break
-    a -= 3
-    count += 1
-else :
-    print(-1)
+# 10757 큰 수 A + B
+# 파이썬이라 오버플로우로 터지지 않음
+# a, b = map(int,input().split())
+# print(a+b)
