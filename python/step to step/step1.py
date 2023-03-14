@@ -23,6 +23,10 @@
 # print(A * int(B[0]))
 # print(A * int(B))
 
+# 11382 꼬마 정민
+# a, b, c = map(int, input().split())
+# print(a+b+c)
+
 # 10171 고양이 출력하기
 # print('\\    /\\')
 # print(' )  ( \')')
